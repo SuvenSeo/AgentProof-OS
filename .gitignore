@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Agent/local artifacts
+.agentproof/
+agentproof.sarif
+.cursor/session*
+.claude/session*
+.codex/session*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
